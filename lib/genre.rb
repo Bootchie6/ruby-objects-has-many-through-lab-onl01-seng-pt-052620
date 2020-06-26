@@ -1,0 +1,8 @@
+class Genre
+  
+  @@all = []
+  
+  
+  
+  
+end
