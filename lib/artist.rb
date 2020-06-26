@@ -17,7 +17,7 @@ class Artist
   end
   
   def songs
-    Songs.select
+    Songs.all.select()
   end
   
   def genres
