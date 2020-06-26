@@ -12,7 +12,11 @@ class Patient
   end
   
   def new_appointment(date, doctor)
-    Appoinment.new(date, )
+    Appoinment.new(date, self, doctor)
+  end
+  
+  def appointments
+    Appointment.all.select { |patient| pat
   end
   
 end
